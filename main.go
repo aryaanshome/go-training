@@ -7,5 +7,6 @@ func main() {
 	// printlightspeed()
 	//random()
 	//iftest()
-	guess()
+	//guess()
+	piggy()
 }
