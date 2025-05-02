@@ -5,7 +5,7 @@ import (
 	"math/rand"
 )
 
-func piggy() {
+func float_piggy() {
 	const nickel float64 = 0.05
 	const dimes float64 = 0.10
 	const quarters float64 = 0.25

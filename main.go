@@ -8,5 +8,6 @@ func main() {
 	//random()
 	//iftest()
 	//guess()
-	piggy()
+	//float_piggy()
+	int_piggy()
 }
