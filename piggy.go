@@ -14,9 +14,9 @@ func piggy() {
 
 	for piggy_bank_limit > 0 {
 
-		var amount_of_nickel = rand.Intn(10) + 1
-		var amount_of_dimes = rand.Intn(5) + 1
-		var amount_of_quarters = rand.Intn(4) + 1
+		var amount_of_nickel = rand.Intn(10)
+		var amount_of_dimes = rand.Intn(5)
+		var amount_of_quarters = rand.Intn(4)
 
 		piggy_bank_amount += (nickel * float64(amount_of_nickel)) + (dimes * float64(amount_of_dimes)) + (quarters * float64(amount_of_quarters))
 		fmt.Printf("%.2f is in the Piggy bank \n", piggy_bank_amount)
