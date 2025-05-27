@@ -2,12 +2,12 @@ package main
 
 import "fmt"
 
-type rowtables func(celsius) kelvin
+type rowtables func(celsius) farenheit
 
-func row_tables(celsius_temp celsius) kelvin {
+func row_tables(celsius_temp celsius) farenheit {
 
 	farenheit_temp := (celsius_temp * 9.0 / 5.0) + 32.0
-	return kelvin(farenheit_temp)
+	return farenheit(farenheit_temp)
 
 }
 

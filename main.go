@@ -18,5 +18,6 @@ func main() {
 	// sensor := calibrate(realSensor, 5)
 	// fmt.Println(sensor())
 	//cipher()
-	drawtables(row_tables)
+	// drawtables(row_tables)
+	drawrevtables(rev_row_tables)
 }
