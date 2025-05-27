@@ -4,10 +4,6 @@ import (
 	"fmt"
 )
 
-type celsius float64
-type kelvin float64
-type farenheit float64
-
 func temperature() {
 
 	kelvin_temp := kelvin(0.0)

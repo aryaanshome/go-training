@@ -1,5 +1,9 @@
 package main
 
+type celsius float64
+type kelvin float64
+type farenheit float64
+
 func main() {
 	// fmt.Println("Hello World")
 	// printlightspeed()
