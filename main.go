@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	// fmt.Println("Hello World")
 	// printlightspeed()
@@ -13,6 +11,8 @@ func main() {
 	//international()
 	// vignere()
 	//temperature()
-	sensor := calibrate(realSensor, 5)
-	fmt.Println(sensor())
+	// sensor := calibrate(realSensor, 5)
+	// fmt.Println(sensor())
+	drawtables(row_tables)
+
 }
