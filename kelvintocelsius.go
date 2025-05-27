@@ -1,8 +1,8 @@
 package main
 
-func kelvintocelsius(temp float64) float64 {
+func kelvintocelsius(temp kelvin) celsius {
 
 	temp -= 273.15
-	return temp
+	return celsius(temp)
 
 }

@@ -1,8 +1,8 @@
 package main
 
-func celsiustofarenheit(temp float64) float64 {
+func celsiustofarenheit(temp celsius) farenheit {
 
 	temp = (temp * 9.0 / 5.0) + 32.0
-	return temp
+	return farenheit(temp)
 
 }
