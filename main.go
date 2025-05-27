@@ -1,6 +1,6 @@
 package main
 
-// "fmt"
+import "fmt"
 
 func main() {
 	// fmt.Println("Hello World")
@@ -12,5 +12,7 @@ func main() {
 	//caesar()
 	//international()
 	// vignere()
-	temperature()
+	//temperature()
+	sensor := calibrate(realSensor, 5)
+	fmt.Println(sensor())
 }
