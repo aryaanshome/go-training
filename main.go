@@ -13,6 +13,6 @@ func main() {
 	//temperature()
 	// sensor := calibrate(realSensor, 5)
 	// fmt.Println(sensor())
+	//cipher()
 	drawtables(row_tables)
-
 }

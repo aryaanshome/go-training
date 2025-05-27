@@ -5,7 +5,7 @@ import (
 )
 
 func vignere() {
-	var message string = "CSOITEUIWUIZNSROCNKFD"
+	var message string = "ECFRZKYGLGRMUSDHRXK" //"CSOITEUIWUIZNSROCNKFD"
 	var keyword string = "GOLANG"
 	cipher := ""
 
