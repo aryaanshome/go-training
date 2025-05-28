@@ -19,5 +19,6 @@ func main() {
 	// fmt.Println(sensor())
 	//cipher()
 	// drawtables(row_tables)
-	drawrevtables(rev_row_tables)
+	// drawrevtables(rev_row_tables)
+	chess()
 }
