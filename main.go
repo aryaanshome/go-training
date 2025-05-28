@@ -3,6 +3,11 @@ package main
 type celsius float64
 type kelvin float64
 type farenheit float64
+type planets []string
+type array [8][8]string
+
+type rowtables func(celsius) farenheit
+type revrowtables func(farenheit) celsius
 
 func main() {
 	// fmt.Println("Hello World")
@@ -20,5 +25,6 @@ func main() {
 	//cipher()
 	// drawtables(row_tables)
 	// drawrevtables(rev_row_tables)
-	chess()
+	// chess()
+	terraform_func()
 }

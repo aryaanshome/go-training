@@ -2,8 +2,6 @@ package main
 
 import "fmt"
 
-type array [8][8]string
-
 func display(chessboard array) {
 
 	for i := 0; i < len(chessboard); i++ {

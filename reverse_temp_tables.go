@@ -2,8 +2,6 @@ package main
 
 import "fmt"
 
-type revrowtables func(farenheit) celsius
-
 func rev_row_tables(farenheit_temp farenheit) celsius {
 
 	celsius_temp := (farenheit_temp * 5.0 / 9.0) - 32.0
