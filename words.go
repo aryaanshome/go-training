@@ -26,7 +26,7 @@ func wordsextracter() {
 		counter[words[word]]++
 	}
 
-	keys_arr := make([]string, 0, len(words))
+	keys_arr := make([]string, 0, len(counter))
 
 	for keys := range counter {
 		keys_arr = append(keys_arr, keys)
